@@ -1,7 +1,7 @@
 # Generowanie liczb pierwszych w zakresie do podanej liczby
 def GenFirsts(x):
-    IsFirst = False
-    FirstsList = [2]
+    IsFirst = True
+    FirstsList = []
     
     for dividend in range(2, x+1):
         for divisor in range(2, dividend):
