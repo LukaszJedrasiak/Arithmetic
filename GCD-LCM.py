@@ -64,5 +64,3 @@ u = CountNWD(w)
 print("NWD: " + str(u))
 t = CountNWW(a, b, u)
 print("NWW: " + str(t))
-
-        
